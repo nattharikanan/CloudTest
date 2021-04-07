@@ -14,4 +14,4 @@ def Welcome_name(name):
     return 'Welcome' + ' ' + name + '!'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+     server.run(host = '0.0.0.0',port = 80)
